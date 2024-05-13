@@ -1,7 +1,5 @@
 {
-  "cSpell.words": [
-    "daomtthuan"
-  ],
+  "cSpell.words": ["daomtthuan", "mongodb"],
   "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,

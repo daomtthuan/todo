@@ -1,0 +1,29 @@
+{
+  "name": "@daomtthuan/todo-database-mongodb",
+  "displayName": "Todo Database - MongoDB",
+  "version": "1.0.0",
+  "description": "Todo Database implemented with MongoDB",
+  "author": "Daomtthuan <daomtthuan@gmail.com> (https://github.com/daomtthuan)",
+  "scripts": {},
+  "dependencies": {
+    "mongodb": "^6.6.1"
+  },
+  "devDependencies": {},
+  "homepage": "https://daomtthuan.github.io/todo",
+  "repository": "git://github.com/daomtthuan/todo.git",
+  "readme": "README.md",
+  "bugs": "https://github.com/daomtthuan/todo/issues",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Daomtthuan",
+      "email": "daomtthuan@gmail.com",
+      "url": "https://github.com/daomtthuan"
+    }
+  ],
+  "keywords": [
+    "todo",
+    "database",
+    "mongodb"
+  ]
+}
