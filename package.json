@@ -1,0 +1,28 @@
+{
+  "name": "@daomtthuan/todo",
+  "displayName": "Todo",
+  "version": "1.0.0",
+  "description": "A basic Todo App, but implemented using many different technologies",
+  "author": "Daomtthuan <daomtthuan@gmail.com> (https://github.com/daomtthuan)",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "homepage": "https://daomtthuan.github.io/todo",
+  "repository": "git://github.com/daomtthuan/todo.git",
+  "readme": "README.md",
+  "bugs": "https://github.com/daomtthuan/todo/issues",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Daomtthuan",
+      "email": "daomtthuan@gmail.com",
+      "url": "https://github.com/daomtthuan"
+    }
+  ],
+  "keywords": [
+    "todo"
+  ]
+}
