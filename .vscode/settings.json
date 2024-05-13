@@ -1,5 +1,5 @@
 {
-  "cSpell.words": ["daomtthuan", "mongodb"],
+  "cSpell.words": ["daomtthuan", "dotenvx", "mongodb", "tsdoc", "bson"],
   "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
@@ -18,5 +18,14 @@
     "**/bower_components": true,
     "**/node_modules": true,
     "**/package-lock.json": true
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb"
   }
 }

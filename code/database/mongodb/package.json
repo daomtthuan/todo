@@ -4,11 +4,18 @@
   "version": "1.0.0",
   "description": "Todo Database implemented with MongoDB",
   "author": "Daomtthuan <daomtthuan@gmail.com> (https://github.com/daomtthuan)",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "exec:init": "dotenvx run -- node src/scripts/init.js"
+  },
   "dependencies": {
+    "chalk": "^5.3.0",
     "mongodb": "^6.6.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^0.38.0",
+    "@types/node": "^20.12.11"
+  },
   "homepage": "https://daomtthuan.github.io/todo",
   "repository": "git://github.com/daomtthuan/todo.git",
   "readme": "README.md",

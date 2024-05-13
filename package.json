@@ -6,9 +6,13 @@
   "author": "Daomtthuan <daomtthuan@gmail.com> (https://github.com/daomtthuan)",
   "type": "module",
   "scripts": {},
-  "dependencies": {},
   "devDependencies": {
-    "prettier": "^3.2.5"
+    "@eslint/js": "^9.2.0",
+    "eslint": "^9.2.0",
+    "eslint-plugin-jsdoc": "^48.2.4",
+    "globals": "^15.2.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-jsdoc": "^1.3.0"
   },
   "homepage": "https://daomtthuan.github.io/todo",
   "repository": "git://github.com/daomtthuan/todo.git",
