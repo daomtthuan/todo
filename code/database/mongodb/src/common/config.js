@@ -6,4 +6,15 @@ if (!process.env.DATABASE) {
   throw new Error(`Missing 'DATABASE' in environment variables`);
 }
 
-export const { CONNECTION_STRING, DATABASE } = process.env;
+export const {
+  /** Connection string */
+  CONNECTION_STRING,
+
+  /** Database name */
+  DATABASE,
+} = process.env;
+
+/** Collection name */
+export const COLLECTION = {
+  TASKS: 'tasks',
+};

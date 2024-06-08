@@ -3,57 +3,44 @@ import chalk from 'chalk';
 /**
  * Log debug
  *
- * @param {...any} args Arguments
- */ export function debug(...args) {
-  console.debug(chalk.gray('[debug]'), ...args);
+ * @param {string} message Message
+ * @param {...unknown} args Arguments
+ */
+export function debug(message, ...args) {
+  console.debug(`${chalk.gray('[debug]')} ${message}`, ...args);
 }
 
 /**
  * Log info
  *
- * @param {...any} args Arguments
+ * @param {string} message Message
+ * @param {...unknown} args Arguments
  */
-export function info(...args) {
-  console.info(chalk.blue('[info]'), ...args);
+export function info(message, ...args) {
+  console.debug(`${chalk.blue('[info]')} ${message}`, ...args);
 }
 
 /**
  * Log warn
  *
- * @param {...any} args Arguments
+ * @param {string} message Message
+ * @param {...unknown} args Arguments
  */
-export function warn(...args) {
-  console.warn(chalk.yellow('[warn]'), ...args);
+export function warn(message, ...args) {
+  console.debug(`${chalk.yellow('[warn]')} ${message}`, ...args);
 }
 
 /**
  * Log error
  *
- * @param {...any} args Arguments
+ * @param {string} message Message
+ * @param {...unknown} args Arguments
  */
-export function error(...args) {
-  console.error(chalk.red('[error]'), ...args);
+export function error(message, ...args) {
+  console.debug(`${chalk.red('[error]')} ${message}`, ...args);
 }
 
-/**
- * Log success
- *
- * @param {...any} args Arguments
- */
-export function success(...args) {
-  console.log(chalk.green('[success]'), ...args);
-}
-
-/**
- * Log
- *
- * @param {...any} args Arguments
- */
-export function log(...args) {
-  console.log(...args);
-}
-
-/** Clear console */
+/** Clear log */
 export function clear() {
   console.clear();
 }
@@ -63,7 +50,5 @@ export default {
   info,
   warn,
   error,
-  success,
-  log,
   clear,
 };

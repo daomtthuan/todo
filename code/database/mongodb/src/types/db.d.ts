@@ -1,12 +1,19 @@
-import type { Collection } from 'mongodb';
+import type { Collection, Db } from 'mongodb';
 
 import type { Document } from '../common/model';
 
 /**
- * Execute handle
+ * Execute database handle
+ *
+ * @param database Database
+ */
+export type ExecuteDatabaseHandle = (database: Db) => Promise<void>;
+
+/**
+ * Execute collection handle
  *
  * @template TDocument
  *
  * @param collection Collection
  */
-export type ExecuteHandle<TDocument extends Document> = (collection: Collection<TDocument>) => Promise<void>;
+export type ExecuteCollectionHandle<TDocument extends Document> = (collection: Collection<TDocument>) => Promise<void>;
